@@ -7,21 +7,12 @@
       {{ content }}
     </div>
 
-    <div class="my-6">
-      {% include projects.html %}
-    </div>
+    {% for service in shareable_social_media %}
+        <div class="my-6">
+            {% include repo-card.html %}
+        </div>
+    {% endfor %}
 
-    {% if site.topics %}
-      <div class="my-6">
-        {% include interests.html %}
-      </div>
-    {% endif %}
-
-    {% unless posts_total == 0 %}
-      <div class="my-6">
-        {% include thoughts.html %}
-      </div>
-    {% endunless %}
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -37,15 +28,10 @@
           </div>
         {% endunless %}
 
-        {% include projects.html %}
-
         {% if site.topics %}
-          {% include interests.html %}
+          {% include repo-card.html %}
         {% endif %}
 
-        {% unless posts_total == 0 %}
-          {% include thoughts.html %}
-        {% endunless %}
       </div>
     </div>
   </div>
