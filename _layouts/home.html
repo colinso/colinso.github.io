@@ -8,6 +8,10 @@
     </div>
 
     <div class="my-6">
+      {% include intro.html %}
+    </div>
+
+    <div class="my-6">
       {% include projects.html %}
     </div>
 
@@ -37,11 +41,7 @@
           </div>
         {% endunless %}
 
-        {% include projects.html %}
-
-        {% if site.topics %}
-          {% include interests.html %}
-        {% endif %}
+        {% include intro.html %}
 
         {% unless posts_total == 0 %}
           {% include thoughts.html %}
