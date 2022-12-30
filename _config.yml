@@ -46,26 +46,25 @@ social_media:
   # youtube: your_username
 
 topics:
-  - name: Android
-    web_url: /android
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/android/android.png
-
-  - name: Web Dev
-    web_url: /webdev
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: GoLang
+    image_url: https://www.evanmiller.org/images/four-days-of-go/gopher3.png
 
   - name: Raspberry Pi
-    web_url: /raspberry-pi
+    # web_url: /raspberry-pi
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/raspberry-pi/raspberry-pi.png
 
-  - name: UI/UX design
-    web_url: /ui-ux
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: IaC/Terraform
+    # web_url: /ui-ux
+    image_url: https://blogs.vmware.com/cloudprovider/files/2019/04/og-image-8b3e4f7d-blog-aspect-ratio-576x324.png
 
-  - name: Embedded Systems
-    web_url: /embedded
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Amazon Web Services
+    # web_url: /embedded
+    image_url: https://uploads-ssl.webflow.com/604e9f1b3b8992ec0978e67f/63178de0492be32979c9acf7_aws-logo.png
 
   - name: Games
-    web_url: /embedded
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+    # web_url: /embedded
+    image_url: https://logos-world.net/wp-content/uploads/2021/11/Unity-Emblem.png
+  
+  - name: Android
+    # web_url: /android
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/android/android.png
