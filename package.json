@@ -1,0 +1,28 @@
+{
+  "name": "developer-portfolio",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@types/node": "^24.5.2",
+    "nuxt": "^3.12.4",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@vueuse/nuxt": "^10.11.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.427.0",
+    "radix-vue": "^1.9.4",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
