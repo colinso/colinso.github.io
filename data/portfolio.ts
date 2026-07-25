@@ -88,6 +88,17 @@ export const portfolioData: PortfolioData = {
       startDate: "2025-01-01",
     },
     {
+      id: "fairplay-project",
+      title: "Fair Play",
+      description:
+        "Task management application based on the system of the NYT best-seller",
+      technologies: ["Go", "Swift", "Python"],
+      githubUrl: "https://github.com/colinso/fairplay-project",
+      featured: false,
+      status: "In Progress",
+      startDate: "2024-01-01",
+    },
+    {
       id: "recipeasy",
       title: "Recipeasy",
       description: "Recipe management and meal planning application",
